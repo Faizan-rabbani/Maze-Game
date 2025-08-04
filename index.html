@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.20.0/matter.min.js"></script>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrollbars */
+      }
+      .hidden {
+        display: none !important;
+      }
+      h1 {
+        color: white;
+        font-size: 50px;
+      }
+      .winner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        z-index: 1;
+        height: 100vh;
+        width: 100vw;
+        background: rgba(0, 0, 0, 0.7);
+      }
+      canvas {
+        display: block; 
+      }
+    </style>
+    <title>Maze</title>
+  </head>
+  <body>
+    <div class="winner hidden">
+      <h1>You Win!</h1>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
