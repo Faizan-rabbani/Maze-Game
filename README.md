@@ -40,6 +40,19 @@ Welcome to the Maze Game! This is a fun, browser-based game where you navigate t
 
 ---
 
+## 📂 Project Structure
+
+maze-game/
+│
+
+├── index.html # Main HTML structure
+
+├── style.css # Styling and layout
+
+└── index.js # JavaScript logic (maze generation, controls, win condition)
+
+---
+
 ## 🔧 Future Improvements
 
 - ⏱️ Add a timer and leaderboard
